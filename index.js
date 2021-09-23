@@ -54,7 +54,7 @@ function playQuiz() {
     if(userAnswer === arrayElement.answer) {
       //incrementing score
       points += 10;
-      console.log(`Wow ${name}, good job. You got 10 points`);
+      console.log(`Wow ${name}, good job. You got ${points} points`);
     }
     else {
       console.log("Oops!,Thats wrong.");
